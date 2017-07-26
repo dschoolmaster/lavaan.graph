@@ -43,10 +43,10 @@ a .dot file containing the description of the lavaan model in the dot language a
 #### Examples
 
 #simulate data
-x<-rnorm(500,0,3)
-w<-2*x + rnorm(500,0,2)
-z<-1*w + rnorm(500,0,3)
-y<-2*z + 4*w + rnorm(500,0,2)
+x<-rnorm(500,0,3)  
+w<-2*x + rnorm(500,0,2)  
+z<-1*w + rnorm(500,0,3)  
+y<-2*z + 4*w + rnorm(500,0,2)  
 
 #write lavaan model
 mod1<-'w\~x  
