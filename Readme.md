@@ -49,8 +49,8 @@ z<-1*w + rnorm(500,0,3)
 y<-2*z + 4*w + rnorm(500,0,2)
 
 #write lavaan model
-mod1<-'w\~x
-       z\~w
+mod1<-'w\~x  
+       z\~w  
        y~z+w'
 
 #fit model
